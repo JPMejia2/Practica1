@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Grande {
+  width: 700px;
+  height: 500px;
+  background-color: #ffffff;
+	position: relative;
+	
+  margin: auto;
+  margin-top: 200px;
+}
+.caja1 {
+  width: 500px;
+  height: 600px;
+  background-color: #00A9AA;
+	position: absolute;
+	right: 170px;
+	top: 30px;
+}
+.caja2 {
+  width: 500px;
+  height: 600px;
+    background-image: url(../img/arboles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: absolute;
+	left: 90px;
+	top: -20px;
+}
+.caja2:hover{
+    width: 405px;
+    height: 505px;
+    box-shadow: -webkit-box-shadow: 0px 0px 78px -3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 0px 78px -3px rgba(0,0,0,0.43);
+    box-shadow: 0px 0px 78px -3px rgba(0,0,0,0.43);
+    border: none;
+    padding: 3em;
+}
+
+.caja3 {
+  width: 500px;
+  height: 80px;
+  background-color: rgba(0, 0, 0,0.5);
+  position: absolute;
+    top: 530px;
+	right: 130px;
+    text-align: center;
+}
+
+.caja3 p{
+     font-size: 30px;
+    font-family: monospace;
+    color: #ffffff;
+    margin-top: 15px;
+}
